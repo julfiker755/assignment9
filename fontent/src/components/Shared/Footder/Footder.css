@@ -1,0 +1,39 @@
+
+@keyframes waves_mbr {
+    from {
+      transform: scale(0.30, 0.30);
+      opacity: 0.6;
+    }
+    to {
+      transform: scale(1.5, 1.5);
+      opacity: 0;
+    }
+  }
+   /* end buttton */
+   
+  .email-btn-mbr {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  
+  .circle_waves {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+    bottom: 1px;
+    left: 0;
+    z-index: 66;
+    animation: waves_mbr 4s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+  }
+  /* logo photo */
+  .icon_logo {
+    z-index: 99999;
+    position: relative;
+    left: 13px;
+    top: 12px;
+   
+}

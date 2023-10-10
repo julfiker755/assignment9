@@ -1,0 +1,12 @@
+.lg-react-element {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lg-react-element  a img {
+    width: 283px;
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
